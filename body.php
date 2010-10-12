@@ -16,6 +16,7 @@
 		</div>
 		<div id="body_content">
 			<img src="/images/graph.png" />
+			testing
 		</div>
 	</div>
 </div>
