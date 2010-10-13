@@ -6,7 +6,7 @@
 	<link href="/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<div id="head">
+<div id="head_slide">
 	<div id="head_area">
 		<div id="head_content">
 			<h1>Got a something to chat about?</h1>

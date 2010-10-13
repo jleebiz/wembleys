@@ -9,7 +9,7 @@
 			<div id="contact" class="stiqr left button">
 				CONTACT
 			</div>
-			<img src="/images/fb_thumb.png" style="margin-left: 10px;" />
+			<img id="slide_toggle" src="/images/fb_thumb.png" style="margin-left: 10px;" />
 			<div class="clear"></div><br>
 			<div class="line">
 			</div>
@@ -61,6 +61,14 @@ enim ad , nostrud exercitation.</h1>
 			</div>
 			<div class="clear"></div>
 			<div class="line"></div>
+			<div id="footnote">
+				<img src="/images/7.png" class='left'/>
+				<h1 class='left'>Footnote:</h1>
+				<p class='left'> 7% of our earnings go towards helping Save The Children, Kiva and Open Source Projects</p>
+			</div>
+			<div id="copyright" class='clear'>
+				Copyright © 2010 Wembley’s, Inc. Use of this web site constitutes acceptance of the eHow Terms of Use † and Privacy Policy †. en-US † requires javascrip
+			</div>
 		</div>
 	</div>
 </div>

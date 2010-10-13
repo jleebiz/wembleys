@@ -16,7 +16,8 @@ p{
 
 /* header css */
 
-#head{
+#head_slide{
+	display: none;
 	height: 200px;
 	width: 100%;
 	background-color: #ffffff;
@@ -174,6 +175,36 @@ p{
 #residential_b{
 	width: 180px;
 	margin-right: 0px;
+}
+
+#footnote{
+	width: 80%;
+	margin: 0px 185px;
+	margin-top: 20px;
+	color: #CBCBCB;
+	text-align: center;
+}
+
+#footnote img{
+	margin-right: 10px;
+}
+
+#footnote h1{
+	letter-spacing: -1px;
+	font-size: 14px;
+	padding-top: 12px;
+}
+
+#footnote p{
+	letter-spacing: -1px;
+	font-size: 14px;
+	padding-top: 12px;
+}
+
+#copyright{
+	margin-top: 85px;
+	font-size: 12px;
+	letter-spacing: -1px;
 }
 
 .foot_list{
