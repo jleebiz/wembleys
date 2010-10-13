@@ -13,10 +13,14 @@
 		var slide_display = false;
 		
 		$('#slide_toggle').toggle(function(){
-			$("#head_slide").fadeIn();
+			$("#head_slide").animate({
+				"height": "200px"
+			});
 			$(this).attr('src','/images/thumbup.png');
 		}, function(){
-			$("#head_slide").fadeOut();
+			$("#head_slide").animate({
+				"height": "0px"
+			});
 			$(this).attr('src','/images/fb_thumb.png');
 		});
 	});
