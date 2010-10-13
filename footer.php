@@ -14,8 +14,10 @@
 		
 		$('#slide_toggle').toggle(function(){
 			$("#head_slide").fadeIn();
+			$(this).attr('src','/images/thumbup.png');
 		}, function(){
 			$("#head_slide").fadeOut();
+			$(this).attr('src','/images/fb_thumb.png');
 		});
 	});
 </script>

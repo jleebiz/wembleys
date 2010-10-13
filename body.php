@@ -1,12 +1,12 @@
 <div id="body">
 	<div id="body_area">
 		<div id="body_head">
-			<img src="/images/wembleys_logo.png"/ style="margin-right: 15px;" class="left" />
-			<p id="wembleys_title" class="left"> wembleys </p>
-			<div id="about" class="stiqr left button">
+			<a href="/"><img src="/images/wembleys_logo.png"/ style="margin-right: 15px;" class="left" border="0" /></a>
+			<p id="wembleys_title" class="left"> <a href="/">wembleys</a> </p>
+			<div id="about" class="stiqr left button <?=$a_active?>">
 				ABOUT
 			</div>
-			<div id="contact" class="stiqr left button">
+			<div id="contact" class="stiqr left button <?=$c_active?>">
 				CONTACT
 			</div>
 			<img id="slide_toggle" src="/images/fb_thumb.png" style="margin-left: 10px;" />
@@ -22,7 +22,7 @@
 					<br><br>
 					<p>Just like life itself, the real estate market exists and 
 	operates in cycles. It’s a buyers market and properties 
-	are still selling! <span class="orange">read more ></span></p>
+	are still selling! <a href='#' class="orange">read more ></a></p>
 				</div>
 			</div>
 			<h1>Wembleys Enterprise Lorem ipsum dolor sit amet, adipisicing aquien dolore aliqua. Ut 

@@ -14,6 +14,11 @@ p{
 	font-size: 14px;
 }
 
+a{
+	text-decoration: none;
+	color: #B3B3B3;
+}
+
 /* header css */
 
 #head_slide{
@@ -22,6 +27,10 @@ p{
 	width: 100%;
 	background-color: #ffffff;
 	text-align: center;
+}
+
+#slide_toggle{
+	cursor: pointer;
 }
 
 #head_area{
@@ -128,6 +137,7 @@ p{
 	position: absolute;
 	right: 10px;
 	top: 50px;
+	cursor: pointer;
 }
 
 #graph_text{
@@ -210,6 +220,7 @@ p{
 .foot_list{
 	height: 130px;
 	margin-right: 20px;
+	cursor: pointer;
 }
 
 .foot_list img{
@@ -233,6 +244,7 @@ p{
 }
 
 .button{
+	cursor: pointer;
 	font-weight: bold;
 	letter-spacing: -1px;
 	font-size: 13px;
@@ -243,6 +255,16 @@ p{
 	-webkit-border-radius: 10px; /* Safari and Chrome */
 	border-radius: 10px; /* Opera 10.5+, future browsers, and now also Internet Explorer 6+ using IE-CSS3 */
 	behavior: url(ie-css3.htc); /* This lets IE know to call the script on all elements which get the 'box' class */
+}
+
+.button:hover{
+	background-color: #CBCBCB;
+	color: #515151;
+}
+
+.active{
+	background-color: #CBCBCB;
+	color: #515151;
 }
 
 .left{
@@ -272,4 +294,5 @@ p{
 
 .orange{
 	color: #BB5026;
+	text-decoration: none;
 }
