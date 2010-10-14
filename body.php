@@ -1,8 +1,11 @@
 <div id="body">
 	<div id="body_area">
 		<div id="body_head">
-			<a href="/"><img src="/images/wembleys_logo.png"/ style="margin-right: 15px;" class="left" border="0" /></a>
-			<p id="wembleys_title" class="left"> <a href="/">wembleys</a> </p>
+			<div id="logo_area">
+				<img id="logo_over" src="/images/logo_over.png" />
+				<a href="/"><img src="/images/wembleys_logo.png"/ style="margin-right: 15px;" class="left" border="0" /></a>
+				<p id="wembleys_title" class="left"> <a href="/">wembleys</a> </p>
+			</div>
 			<div id="about" class="stiqr left button <?=$a_active?>">
 				ABOUT
 			</div>
@@ -31,38 +34,46 @@ enim ad , nostrud exercitation.</h1>
 		<div id="footer">
 			<div class="line"></div>
 			<div id="commercial" class="foot_list left">
-				<img src="/images/commercial_estate.png" class="left">
-				<h1>commercial</h1>
-				<p>real estate</p>
+				<img src="/images/commercial_estate.png">
+				<div class="foot_text">
+					<h1>commercial</h1>
+					<p>real estate</p>
+				</div>
 			</div>
 			
 			<div class="vert_line left"></div>
 			
 			<div id="commercial_b" class="foot_list left">
-				<img src="/images/commercial_lending.png" class="left">
-				<h1>commercial</h1>
-				<p>lending</p>
+				<img src="/images/commercial_lending.png">
+				<div class="foot_text">
+					<h1>commercial</h1>
+					<p>lending</p>
+				</div>
 			</div>
 		
 			<div class="vert_line left"></div>
 		
 			<div id="residential" class="foot_list left">
-				<img src="/images/residential_estate.png" class="left">
-				<h1>residential</h1>
-				<p>real estate</p>
+				<img src="/images/residential_estate.png">
+				<div class="foot_text">
+					<h1>residential</h1>
+					<p>real estate</p>
+				</div>
 			</div>
 			
 			<div class="vert_line left"></div>
 			
 			<div id="residential_b" class="foot_list left">
-				<img src="/images/residential_lending.png" class="left">
-				<h1>residential</h1>
-				<p>morgate & lending</p>
+				<img src="/images/residential_lending.png">
+				<div class="foot_text">
+					<h1>residential</h1>
+					<p>morgate & lending</p>
+				</div>
 			</div>
 			<div class="clear"></div>
 			<div class="line"></div>
 			<div id="footnote">
-				<img src="/images/7.png" class='left'/>
+				<img id="img_7" src="/images/7.png" class='left'/>
 				<h1 class='left'>Footnote:</h1>
 				<p class='left'> 7% of our earnings go towards helping Save The Children, Kiva and Open Source Projects</p>
 			</div>
