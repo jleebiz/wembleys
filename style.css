@@ -269,7 +269,7 @@ a{
 
 #social_side{
 	line-height: 10px;
-	position: fixed;
+	position: absolute;
 	top: 53px;
 	right: 30px;
 }
