@@ -1,6 +1,6 @@
 <div class="line"></div>
 
-<!--<script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> <script language="javascript" src="http://free.stiqr.com/sticker/api"></script>-->
+<script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> <script language="javascript" src="http://stiqr.jlee.biz/sticker/api"></script>
 </body>
 </html>
 
