@@ -139,6 +139,11 @@ a{
 	position: relative;
 }
 
+#graph a{
+	color: #BB5026;
+	text-decoration: none;
+}
+
 #graph img{
 	position: absolute;
 	right: 10px;

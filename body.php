@@ -25,7 +25,7 @@
 					<br><br>
 					<p>Just like life itself, the real estate market exists and 
 	operates in cycles. It’s a buyers market and properties 
-	are still selling! <a href='#' class="orange">read more ></a></p>
+	are still selling! <a href='#'>read more ></a></p>
 				</div>
 			</div>
 			<h1>Wembleys Enterprise Lorem ipsum dolor sit amet, adipisicing aquien dolore aliqua. Ut 
