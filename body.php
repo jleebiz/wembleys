@@ -7,13 +7,15 @@
 				<p id="wembleys_title" class="left"> <a href="/">wembleys</a> </p>
 			</div>
 			<a href="?page=about">
-			<div id="about" class="stiqr left button <?=$a_active?>">
-				ABOUT
-			</div>
+				<div id="about" class="stiqr left button <?=$a_active?>">
+					ABOUT
+				</div>
 			</a>
-			<div id="contact" class="stiqr left button <?=$c_active?>">
-				CONTACT
-			</div>
+			<a href="?page=contact">
+				<div id="contact" class="stiqr left button <?=$c_active?>">
+					CONTACT
+				</div>
+			</a>
 			<img id="slide_toggle" src="/images/fb_thumb.png" style="margin-left: 10px;" />
 			<div class="clear"></div><br>
 			<div class="line">
