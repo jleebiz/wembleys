@@ -1,0 +1,94 @@
+#conBody{
+	font-size: 15px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	padding-left: 90px;
+}
+#conBody h1{
+	font-weight: normal;
+	padding: 0px;
+	margin: 0px;
+	font-size: 50px;
+}
+#map {
+	color: #ffffff;
+	background-image: url("/images/contact_map.png");
+	background-repeat: no-repeat;
+	padding-top: 0;
+	padding-left: 0;
+	float: left;
+	width: 325px;
+	height: 344px;
+	margin-right: 65px;
+}
+
+#map p{
+	margin-top: 5px;
+	color: #CBCBCB;
+}
+
+#map table{
+	color: #ffffff;
+	font-family: "Arial Narrow", Arial;
+}
+
+#map table td{
+	padding-right: 10px;
+}
+form.form_format fieldset{	
+	border: 0;
+	margin-top: 20px;
+	width: 500px;
+	padding: 0;
+}
+form.form_format li{
+	margin: 3;
+}
+form.form_format textarea{
+	border: 2px solid #3b3d46;
+	width: 400px;
+	height: 150px;
+	background-color: #999999;
+	overflow: auto;
+	margin-top: 3px;
+}
+form.form_format label{
+	font-size: 12;
+	color: #CBCBCB;
+	vertical-align: center;
+	margin-right: 40px;
+	display: inline-block;
+	line-height: 1.8;
+	width: 40px;
+}
+form.form_format li input{
+	background-color: #999999;
+	height: 30px;
+	width: 400px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	border: 2px solid #3b3d46;
+}
+#x1 {
+	vertical-align: top;
+}
+
+#subBut2{
+	margin-top: -25px;
+	margin-right: -23px;
+}
+
+#subBut {
+	width: 100%;
+	text-align: right;
+	position: relative;
+}
+form.form_format ol{
+	padding: 0;
+	margin: 0;
+}
+form.form_format fieldset li {
+list-style-type: none;
+}
+form.form_format fieldset ol {
+}

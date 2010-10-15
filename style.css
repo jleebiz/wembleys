@@ -1,5 +1,5 @@
 body{
-	font-family: arial;
+	font-family: "Arial Narrow", Arial;
 	background-color: #31313A;
 	color: #B3B3B3;
 }
@@ -58,11 +58,10 @@ a{
 }
 
 #head_content p{
-	font-family: "Arial";
 	font-size: 14px;
 	font-weight: normal;
 	color: #999999;
-	letter-spacing: -1px;
+	
 }
 
 #head_social{
@@ -116,7 +115,7 @@ a{
 
 #wembleys_title{
 	font-size: 21px;
-	letter-spacing: -1px;
+	
 	margin-right: 500px;
 }
 
@@ -204,13 +203,13 @@ a{
 }
 
 #footnote h1{
-	letter-spacing: -1px;
+	
 	font-size: 14px;
 	padding-top: 12px;
 }
 
 #footnote p{
-	letter-spacing: -1px;
+	
 	font-size: 14px;
 	padding-top: 12px;
 }
@@ -218,7 +217,7 @@ a{
 #copyright{
 	margin-top: 85px;
 	font-size: 12px;
-	letter-spacing: -1px;
+	
 }
 
 #social_side{
@@ -245,20 +244,20 @@ a{
 	font-weight: normal;
 	color: #ffffff;
 	font-size: 22px;
-	letter-spacing: -1px;
+	
 }
 
 .foot_list p{
 	color: #CBCBCB;
 	font-size: 14px;
-	letter-spacing: -1px;
+	
 }
 
 .button{
 	text-decoration: none;
 	cursor: pointer;
 	font-weight: bold;
-	letter-spacing: -1px;
+	
 	font-size: 13px;
 	background-color: #515151;
 	padding: 10px 30px;
