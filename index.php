@@ -12,8 +12,10 @@
 		$c_active = "";
 	}else if($page == "about"){
 		$a_active = "active";
+		$c_active = "";
 	}else if($page == "contact"){
 		$c_active = "active";
+		$a_active = "";
 	}
 	
 	include("header.php");

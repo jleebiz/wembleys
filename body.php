@@ -2,13 +2,15 @@
 	<div id="body_area">
 		<div id="body_head">
 			<div id="logo_area">
-				<img id="logo_over" src="/images/logo_over.png" />
-				<a href="/"><img src="/images/wembleys_logo.png"/ style="margin-right: 15px;" class="left" border="0" /></a>
+				<a href="/"><img id="logo_over" src="/images/logo_over.png" /></a>
+				<img src="/images/wembleys_logo.png"/ style="margin-right: 15px;" class="left" border="0" />
 				<p id="wembleys_title" class="left"> <a href="/">wembleys</a> </p>
 			</div>
+			<a href="?page=about">
 			<div id="about" class="stiqr left button <?=$a_active?>">
 				ABOUT
 			</div>
+			</a>
 			<div id="contact" class="stiqr left button <?=$c_active?>">
 				CONTACT
 			</div>

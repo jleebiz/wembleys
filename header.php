@@ -4,6 +4,7 @@
 	<script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 	<link href="/reset.css" rel="stylesheet" type="text/css" />
 	<link href="/style.css" rel="stylesheet" type="text/css" />
+	<link href="/pages/<?=$page?>/<?=$page?>.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="head_slide">
@@ -16,7 +17,9 @@
 					
 				</div>
 				<div id="other">
-					<img src="/images/head_social.png">
+					<img src="/images/facebook_little.png">
+					<img src="/images/twitter_little.png">
+					<img src="/images/rss_little.png">
 				</div>
 			</div>
 		</div>

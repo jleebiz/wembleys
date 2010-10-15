@@ -1,0 +1,18 @@
+#about_content{
+	padding-left: 92px;
+	padding-right: 92px;
+	padding-bottom: 240px;
+}
+
+#about_content h1{
+	font-size: 50px;
+	letter-spacing: -1px;
+	color: #ffffff;
+	font-family: "Arial";
+	font-weight: normal;
+}
+
+#about_content p{
+	font-family: "Arial";
+	font-size: 16px;
+}

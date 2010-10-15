@@ -31,9 +31,9 @@
 		});
 		
 		$("#logo_area").hover(function(){
-			$("#logo_over").fadeIn();
+			$("#logo_over").show();
 		}, function(){
-			$("#logo_over").fadeOut();
+			$("#logo_over").hide();
 		});
 		
 		$("#img_7").hover(function(){
@@ -53,6 +53,14 @@
 		
 		$("#social_side .icon").hover(function(){
 			src = $(this).attr("src");
+			new_src = get_over_src(src);
+			$(this).attr("src", new_src);
+		}, function(){
+			$(this).attr("src", src);
+		});
+		
+		$("#other img").hover(function(){
+			src = $(this).attr('src');
 			new_src = get_over_src(src);
 			$(this).attr("src", new_src);
 		}, function(){

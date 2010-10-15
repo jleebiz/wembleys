@@ -1,4 +1,4 @@
-<div id="body_content">
+<div id="home_content">
 	<div id="graph">
 		<img src="/images/map_icon.png">
 		<div id="graph_text">
