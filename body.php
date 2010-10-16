@@ -4,7 +4,7 @@
 			<div id="logo_area" class="left">
 				<a href="/"><img id="logo_over" src="/images/logo_over.png" /></a>
 				<img src="/images/wembleys_logo.png"/ style="margin-right: 15px;" class="left" border="0" />
-				<p id="wembleys_title"> <a href="/">wembleys</a> </p>
+				<p id="wembleys_title" class="left"> <a href="/">wembleys</a> </p>
 			</div>
 			<a href="?page=about" class="left">
 				<div id="about" class="button <?=$a_active?>">
