@@ -1,18 +1,18 @@
 <div id="body">
 	<div id="body_area">
 		<div id="body_head">
-			<div id="logo_area">
+			<div id="logo_area" class="left">
 				<a href="/"><img id="logo_over" src="/images/logo_over.png" /></a>
 				<img src="/images/wembleys_logo.png"/ style="margin-right: 15px;" class="left" border="0" />
-				<p id="wembleys_title" class="left"> <a href="/">wembleys</a> </p>
+				<p id="wembleys_title"> <a href="/">wembleys</a> </p>
 			</div>
-			<a href="?page=about">
-				<div id="about" class="stiqr left button <?=$a_active?>">
+			<a href="?page=about" class="left">
+				<div id="about" class="button <?=$a_active?>">
 					ABOUT
 				</div>
 			</a>
-			<a href="?page=contact">
-				<div id="contact" class="stiqr left button <?=$c_active?>">
+			<a href="?page=contact" class="left">
+				<div id="contact" class="button <?=$c_active?>">
 					CONTACT
 				</div>
 			</a>

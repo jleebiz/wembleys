@@ -105,6 +105,10 @@ a{
 	position: relative;
 }
 
+#logo_area{
+	margin-right: 490px;
+}
+
 #logo_over{
 	position: absolute;
 	top: -45px;
@@ -115,8 +119,6 @@ a{
 
 #wembleys_title{
 	font-size: 21px;
-	
-	margin-right: 500px;
 }
 
 /*body css ends */
